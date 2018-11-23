@@ -97,6 +97,8 @@ public class BPDaoImpl implements IBPDao{
 		return routeList;
 	}
 
-
+public void greetings() {
+	
+}
 }
 

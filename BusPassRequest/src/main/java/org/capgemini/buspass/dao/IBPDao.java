@@ -13,4 +13,6 @@ public interface IBPDao {
 	public boolean addRouteDetails(RouteDetails routeDetails) throws SQLException;
 
 	public List<RouteDetails> getAllRoutesDetails();
+	
+	public void greetings();
 }
