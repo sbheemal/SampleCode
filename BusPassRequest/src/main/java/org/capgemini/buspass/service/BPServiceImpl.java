@@ -6,6 +6,7 @@ import java.util.List;
 import org.capgemini.buspass.dao.BPDaoImpl;
 import org.capgemini.buspass.dao.IBPDao;
 import org.capgemini.buspass.model.AdminLogin;
+import org.capgemini.buspass.model.BuspassBean;
 import org.capgemini.buspass.model.RouteDetails;
 
 public class BPServiceImpl implements IBPService {
@@ -34,6 +35,11 @@ public class BPServiceImpl implements IBPService {
 	public List<RouteDetails> getAllRoutesDetails() {
 		List<RouteDetails> routeList=dao.getAllRoutesDetails();
 		return routeList;
+	}
+	@Override
+	public boolean createBuspassRequest(BuspassBean buspassBean) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
