@@ -1,0 +1,7 @@
+create table login(id integer AUTO_INCREMENT PRIMARY KEY,username varchar(50) not null,password varchar(50) not null);
+
+insert into login(username,password) values("akhil","12345");
+insert into login(username,password) values("sai","987");
+
+create table route_details(route_id integer AUTO_INCREMENT PRIMARY KEY, route_path varchar(100) not null,
+occupied_seats integer,total_seats integer,bus_no varchar(10),driver_no varchar(15),total_kilmeters integer);

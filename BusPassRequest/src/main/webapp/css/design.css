@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+#table{
+	border: 2px solid;
+	width: 300px;
+	align: center;
+}
+.button{
+	width:147px;
+	background-color:blue;
+	padding:6px 10px 6px 10px ;
+	color: red;
+   font-size: 14px;
+}
